@@ -8,6 +8,10 @@
 	color: #c8c8c8;
 }
 
+#inverted-text {
+	color: #202020;
+}
+
 #hero {
 	background-image: url('./images/hero.png');
 	background-repeat: no-repeat;
@@ -32,7 +36,12 @@
 	width: 300px;
 }
 
-#card {
+#cards {
+	width: 22rem;
 	background-color: #00b963;
-	border-radius: 25px;
+}
+
+#footer {
+	border-color: #c8c8c8;
+	color: #c8c8c8;
 }

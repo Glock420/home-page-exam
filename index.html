@@ -49,7 +49,7 @@
 		<div class="container-fluid">
 			<div class="row d-flex justify-content-center m-5">
 				<div id="carouselExampleInterval" class="col-6 p-5 carousel slide" data-bs-ride="carousel" >
-					<div class="carousel-inner">
+					<div class="carousel-inner rounded">
 						<div class="carousel-item active" data-bs-interval="5000">
 							<img src="./images/ultramarines.png" class="d-block w-100" id="carousel-img" alt="...">
 						</div>
@@ -77,16 +77,51 @@
 			</div>
 		</div>
 
-		<div class="container-fluid">
-			<div class="row d-flex justify-content-center">
-				<h3 class="text-center" id="standard-text">Feature Products</h3>
-				<div class="col-4">
-					<img src="https://i.guim.co.uk/img/media/3656ae6ea2209d4561caf04fa9f172a519908ca3/0_28_2318_1391/master/2318.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=afcc355f47876bc495cdc3c902639bae" class="w-50 img-fluid" />
-					<h4>Combat Patrol: Thousand Sons</h4>
-					<p></p>
+		<div class="m-5">
+			<h3 class="mb-4 text-center" id="standard-text">Featured Products</h3>
+
+			<div class="d-flex justify-content-evenly" id="inverted-text">
+				<div class="card" id="cards">
+					<img src="./images/1ksons.png" class="card-img-top" />
+					<div class="card-body">
+						<h5 class="card-title">Combat Patrol: Thousand Sons</h5>
+						<p class="card-text">
+							Expand the dominion of Magnus the Red with Combat Patrol: Thousand Sons! This boxed set provides you with all the units you need to get.
+						</p>
+					</div>
+				</div>
+
+				<div class="card" id="cards">
+					<img src="./images/feirros.png" class="card-img-top" />
+					<div class="card-body">
+						<h5 class="card-title">Iron Father Feirros</h5>
+						<p class="card-text">
+							This 17-part plastic kit makes one Iron Father Feirros and is supplied with one Citadel 40mm Round Base.
+						</p>
+					</div>
+				</div>
+
+				<div class="card" id="cards">
+					<img src="./images/starter.png" class="card-img-top" />
+					<div class="card-body">
+						<h5 class="card-title">Kill Team: Starter Set</h5>
+						<p class="card-text">
+							This starter set is packed with everything two players need to take their first steps into Kill Team. The whole box has been designed to be built and ready for play in as little as 30 minutes.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
+
+		<footer class="container-fluid border-top p-4" id="footer">
+			<div class="row d-flex justify-content-center text-center">
+				<div class="col-auto">&copy; 2024 40K Hub</div>
+
+				<div class="col-auto d-none d-sm-block">|</div>
+
+				<div class="col-auto">All Rights Reserved</div>
+			</div>
+		</footer>
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	</body>
